@@ -4,6 +4,7 @@ package com.soecode.lyf.dto;
  * 封装json对象，所有返回结果都使用它
  */
 public class Result<T> {
+	private Integer code; //返回编码
 
 	private boolean success;// 是否成功标志
 
@@ -50,9 +51,35 @@ public class Result<T> {
 		this.error = error;
 	}
 
+	public Integer getCode() {
+		return code;
+	}
+
+	public void setCode(Integer code) {
+		this.code = code;
+	}
+
 	@Override
 	public String toString() {
 		return "JsonResult [success=" + success + ", data=" + data + ", error=" + error + "]";
 	}
 
+
+	// 成功时的构造器
+	public static Result success(Object data) {
+		Result result = new Result();
+		result.setCode(20000);
+		result.setSuccess(true);
+		result.setData(data);
+		return result;
+	}
+
+	// 成功时的构造器
+	public static Result fail(String message) {
+		Result result = new Result();
+		result.setCode(40000);
+		result.setSuccess(false);
+		result.setError(message);
+		return result;
+	}
 }

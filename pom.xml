@@ -7,6 +7,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ssm Maven Webapp</name>
 	<url>http://github.com/liyifeng1994/ssm</url>
+
+    <properties>
+        <pageHelper.version>1.2.3</pageHelper.version>
+    </properties>
 	<dependencies>
 		<!-- 单元测试 -->
 		<dependency>
@@ -139,6 +143,14 @@
 			<artifactId>commons-collections</artifactId>
 			<version>3.2</version>
 		</dependency>
+
+		<!--pagehelper-->
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper-spring-boot-starter</artifactId>
+			<version>${pageHelper.version}</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>ssm</finalName>

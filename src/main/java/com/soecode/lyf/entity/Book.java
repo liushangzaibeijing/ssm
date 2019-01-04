@@ -1,53 +1,151 @@
 package com.soecode.lyf.entity;
 
-/**
- * 图书实体
- */
-public class Book {
+import java.io.Serializable;
 
-	private long bookId;// 图书ID
+public class Book extends BaseModel implements Serializable{
+    /**
+     * 主键
+     */
+    private Integer id;
 
-	private String name;// 图书名称
+    /**
+     * 书名
+     */
+    private String name;
+    /**
+     * 作者
+     */
+    private String author;
+    /**
+     * 译者
+     */
+    private String translator;
+    /**
+     * 出版社
+     */
+    private String publisHouse;
+    /**
+     * 出版时间
+     */
+    private String publicationDate;
+    /**
+     * 价格
+     */
+    private String price;
+    /**
+     * 评分
+     */
+    private Double score;
+    /**
+     * 评价人数
+     */
+    private Integer evaluateNumber;
+    /**
+     * 图片link
+     */
+    private String picture;
+    /**
+     * 书籍描述
+     */
+    private String descption;
+    /**
+     * 所属分类
+     */
+    private String tag;
 
-	private int number;// 馆藏数量
+    public Integer getId() {
+        return id;
+    }
 
-	public Book() {
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public Book(long bookId, String name, int number) {
-		this.bookId = bookId;
-		this.name = name;
-		this.number = number;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public long getBookId() {
-		return bookId;
-	}
+    public void setName(String name) {
+        this.name = name == null ? null : name.trim();
+    }
 
-	public void setBookId(long bookId) {
-		this.bookId = bookId;
-	}
+    public String getAuthor() {
+        return author;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setAuthor(String author) {
+        this.author = author == null ? null : author.trim();
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getTranslator() {
+        return translator;
+    }
 
-	public int getNumber() {
-		return number;
-	}
+    public void setTranslator(String translator) {
+        this.translator = translator == null ? null : translator.trim();
+    }
 
-	public void setNumber(int number) {
-		this.number = number;
-	}
+    public String getPublisHouse() {
+        return publisHouse;
+    }
 
-	@Override
-	public String toString() {
-		return "Book [bookId=" + bookId + ", name=" + name + ", number=" + number + "]";
-	}
+    public void setPublisHouse(String publisHouse) {
+        this.publisHouse = publisHouse == null ? null : publisHouse.trim();
+    }
 
+    public String getPublicationDate() {
+        return publicationDate;
+    }
 
+    public void setPublicationDate(String publicationDate) {
+        this.publicationDate = publicationDate == null ? null : publicationDate.trim();
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price == null ? null : price.trim();
+    }
+
+    public Double getScore() {
+        return score;
+    }
+
+    public void setScore(Double score) {
+        this.score = score;
+    }
+
+    public Integer getEvaluateNumber() {
+        return evaluateNumber;
+    }
+
+    public void setEvaluateNumber(Integer evaluateNumber) {
+        this.evaluateNumber = evaluateNumber;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture == null ? null : picture.trim();
+    }
+
+    public String getDescption() {
+        return descption;
+    }
+
+    public void setDescption(String descption) {
+        this.descption = descption == null ? null : descption.trim();
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag == null ? null : tag.trim();
+    }
 }
