@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+
+    <weaver>
+        <!--需要织入的服务类-->
+        <include within="com.soecode.lyf.service.*" />
+    </weaver>
+    <aspects>
+        <!-- 织入的切面类 -->
+        <aspect name="com.soecode.lyf.aop.ProfileAspect" />
+    </aspects>
+</aspectj>
