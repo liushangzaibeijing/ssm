@@ -2,28 +2,41 @@ package com.soecode.lyf.dao;
 
 
 import com.soecode.lyf.entity.Book;
-import com.soecode.lyf.entity.BookExample;
+import com.soecode.lyf.service.BookService;
 import org.junit.Test;
-import org.mybatis.spring.SqlSessionFactoryBean;
+import org.junit.runner.RunWith;
+import org.springframework.aop.config.AopNamespaceHandler;
+import org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.soecode.lyf.BaseTest;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.List;
-
+//指定在单元测试启动的时候创建spring的工厂类对象
+@ContextConfiguration(locations = {"classpath:spring/spring-service.xml"})
+//RunWith的value属性指定以spring test的SpringJUnit4ClassRunner作为启动类
+//如果不指定启动类，默认启用的junit中的默认启动类
+@RunWith(value = SpringJUnit4ClassRunner.class)
 public class BookDaoTest extends BaseTest {
 
+
 	@Autowired
-	private BookMapper bookDao;
+	private BookService demoService;
 
 	@Test
 	public void testQueryById() throws Exception {
-		int bookId = 1000;
-		BookExample bookExample = new BookExample();
-		bookExample.createCriteria().andIdEqualTo(bookId);
-		List<Book> books = bookDao.selectByExample(bookExample);
 
-	}
+		int bookId = 2446;
+        Book book = demoService.getById(bookId);
+        System.out.println("书籍信息为："+book.getName());
+
+
+		AopNamespaceHandler
+    }
+
 
 
 }
