@@ -2,39 +2,22 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns:context="http://www.springframework.org/schema/context"
-    xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context.xsd
-	http://www.springframework.org/schema/aop
-    http://www.springframework.org/schema/aop/spring-aop.xsd">
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
 	<!-- 扫描service包下所有使用注解的类型 -->
 	<context:component-scan base-package="com.soecode.lyf.service" />
 
-    <bean id="logAspect" class="com.soecode.lyf.aop.LogAspect" />
-    <!--
-        设置自动扫描aop 自动代理
-        proxy-target-class 为true 强制使用CGLIB 创建代理对象
-        expose-proxy 为true 设置代理增强，所谓代理增强是指
-        //一个服务组件 spring声明式的事务本身也是使用AOP原理来实现的
-		public class UserServiceImpl implements UserService{
-			@Transactional(propagation = Propagation.REQUIRED)
-			public void a(){
-			    //a方法的内部调用b方法
-				this.b();
-			}
-			@Transactional(propagation = Propagation.REQUIRED_NEW)
-			public void b(){
-				System.out.println("b has been called");
-           }
-         }
-         方法a和方法b都使用了事务，但是方法a中调用了方法b，aop的代理增强是针对方法的，不针对代码块
-         所有在这种情况下调用方法a 只应用了方法a上声明的事务，方法a中对方法b的调用不会使用方法b上的事务
-         但是如果声明expose-proxy="true" 则调用方法a的时候会进入方法a和方法b的两个事务中
-    -->
-    <aop:aspectj-autoproxy proxy-target-class="true"  expose-proxy="true">
-        <!-- 除了自动扫描外 可以在该标签中显示的指定切面实例  -->
-        <!--<aop:include name="otherAspect" />-->
-    </aop:aspectj-autoproxy>
+	<!-- 配置事务管理器 -->
+	<bean id="transactionManager"
+		  class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 注入数据库连接池 -->
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<!-- 配置基于注解的声明式事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
 </beans>

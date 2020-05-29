@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 扫描service包下所有使用注解的类型 -->
+	<context:component-scan base-package="com.soecode.lyf.service" />
+
+	<!-- 配置事务管理器 -->
+	<bean id="transactionManager"
+		  class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 注入数据库连接池 -->
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!--  配置事务通知  会被spring转换为代理增强实力 -->
+	<tx:advice id="TestAdvice"  transaction-manager="transactionManager" >
+		<tx:attributes>
+			<tx:method name="save*" read-only="false" propagation="REQUIRED" rollback-for="Throwable"/>
+			<tx:method name="del*" propagation="REQUIRED" rollback-for="Throwable"/>
+			<tx:method name="update*" propagation="REQUIRED" rollback-for="Throwable"/>
+			<tx:method name="add*" propagation="REQUIRED" rollback-for="Throwable"/>
+			<tx:method name="find*" propagation="REQUIRED" rollback-for="Throwable"/>
+			<tx:method name="get*" propagation="REQUIRED" rollback-for="Throwable"/>
+			<tx:method name="apply*" propagation="REQUIRED" rollback-for="Throwable"/>
+		</tx:attributes>
+	</tx:advice>
+	<!--  配置参与事务的类 -->
+	<aop:config>
+		<aop:pointcut id="allTestServiceMethod" expression="execution(* com.soecode.lyf.service.*.*(..))"/>
+		<aop:advisor pointcut-ref="allTestServiceMethod" advice-ref="TestAdvice" />
+	</aop:config>
+
+</beans>

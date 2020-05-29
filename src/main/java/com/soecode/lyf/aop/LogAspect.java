@@ -15,8 +15,8 @@ import org.springframework.test.context.support.AbstractGenericContextLoader;
 /**
  * 日志打印切面
  */
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class LogAspect {
     //在进入切点业务代码未执行之前执行
     @Before("execution(* com.soecode.lyf.service.impl.*.*(..))")
