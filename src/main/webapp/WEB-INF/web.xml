@@ -2,6 +2,12 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	version="3.1" metadata-complete="true">
+
+	<!-- 在web项目中添加spring相关的配置 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:spring/spring-*.xml</param-value>
+	</context-param>
 	<!-- 如果是用mvn命令生成的xml，需要修改servlet版本为3.1 -->
 	<!-- 配置DispatcherServlet -->
 	<servlet>
@@ -11,14 +17,21 @@
 			spring-dao.xml,spring-service.xml,spring-web.xml
 			Mybatis - > spring -> springmvc
 		 -->
-		<init-param>
-			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:spring/spring-*.xml</param-value>
-		</init-param>
+<!--		<init-param>-->
+<!--			<param-name>contextConfigLocation</param-name>-->
+<!--			<param-value>classpath:spring/spring-*.xml</param-value>-->
+<!--		</init-param>-->
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>mvc-dispatcher</servlet-name>
 		<!-- 默认匹配所有的请求 -->
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	
+	
+	<!-- 添加ContextLoaderListener事件监听器   -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
 </web-app>

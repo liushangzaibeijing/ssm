@@ -6,4 +6,7 @@ public interface BookService {
 
 
     Book getById(Integer bookId);
+
+
+    void saveBook(Book book);
 }

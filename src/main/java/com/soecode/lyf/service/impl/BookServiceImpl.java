@@ -8,6 +8,7 @@ import org.apache.ibatis.binding.MapperProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cglib.proxy.MethodProxy;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -26,5 +27,20 @@ public class BookServiceImpl implements BookService {
             return null;
         }
         return bookList.get(0);
+    }
+
+    @Transactional(rollbackFor = RuntimeException.class,noRollbackFor = Exception.class)
+    public void saveBook(Book book) {
+        //添加
+        book.setAuthor("梁晓声");
+        book.setName("知青");
+        book.setDescption("70年代人上山下乡");
+        book.setEvaluateNumber(9999);
+        book.setPrice("25.86");
+        book.setPublicationDate("1994-10-21");
+        book.setPublisHouse("北京石榴庄出版社");
+        book.setScore(9.5);
+        bookMapper.insertSelective(book);
+        throw new RuntimeException();
     }
 }
