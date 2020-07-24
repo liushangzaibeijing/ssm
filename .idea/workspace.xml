@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterDir="false" />
@@ -26,7 +25,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
@@ -49,38 +47,38 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_12_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/Aop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-all.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/beanFactory/BeanFactoryExtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/service/TxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/config/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/config/MySpringListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/config/MyTaskEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/impl/DemoTwoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/impl/EnvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-bean2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-beanPostProcessor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-el.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-env.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-listener.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/mvc/SpringMVCTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ssm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/beanFactory/ApplicationContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soecode/lyf/beanFactory/ApplicationContextTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +87,10 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="seckill" />
@@ -102,6 +104,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -138,7 +145,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/学习/spring框架学习/BeanFactory的扩展类" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/spring" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -148,11 +155,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\ssm\src\main\resources\spring" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soecode.lyf.service.impl" />
+      <recent name="com.soecode.lyf.beanFactory" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\Project\java\workspace\eclipse\seckill\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeanFactoryExtTest.start">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.54">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -207,7 +218,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanFactoryExtTest.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextTest.beanPostProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
@@ -216,7 +227,58 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.soecode.lyf.beanFactory" />
-      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.beanFactory.BeanFactoryExtTest" />
+      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.beanFactory.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="beanPostProcessorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextTest.listnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soecode.lyf.beanFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soecode.lyf.beanFactory" />
+      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.beanFactory.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="listnerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextTest.spELTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soecode.lyf.beanFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soecode.lyf.beanFactory" />
+      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.beanFactory.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="spELTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationContextTest.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soecode.lyf.beanFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soecode.lyf.beanFactory" />
+      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.beanFactory.ApplicationContextTest" />
       <option name="METHOD_NAME" value="start" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -224,51 +286,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookDaoTest.testQueryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringMVCTest.coreDispatcherServlet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soecode.lyf.dao.*" />
+          <option name="PATTERN" value="com.soecode.lyf.mvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soecode.lyf.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.dao.BookDaoTest" />
-      <option name="METHOD_NAME" value="testQueryById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TxTest.testNOtTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soecode.lyf.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soecode.lyf.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.service.TxTest" />
-      <option name="METHOD_NAME" value="testNOtTx" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TxTest.testTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soecode.lyf.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soecode.lyf.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.service.TxTest" />
-      <option name="METHOD_NAME" value="testTx" />
+      <option name="PACKAGE_NAME" value="com.soecode.lyf.mvc" />
+      <option name="MAIN_CLASS_NAME" value="com.soecode.lyf.mvc.SpringMVCTest" />
+      <option name="METHOD_NAME" value="coreDispatcherServlet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -373,18 +401,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookDaoTest.testQueryById" />
-      <item itemvalue="JUnit.TxTest.testNOtTx" />
-      <item itemvalue="JUnit.TxTest.testTx" />
+      <item itemvalue="JUnit.ApplicationContextTest.start" />
+      <item itemvalue="JUnit.ApplicationContextTest.spELTest" />
+      <item itemvalue="JUnit.ApplicationContextTest.beanPostProcessorTest" />
+      <item itemvalue="JUnit.ApplicationContextTest.listnerTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
-      <item itemvalue="JUnit.BeanFactoryExtTest.start" />
+      <item itemvalue="JUnit.SpringMVCTest.coreDispatcherServlet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeanFactoryExtTest.start" />
-        <item itemvalue="JUnit.TxTest.testNOtTx" />
-        <item itemvalue="JUnit.BookDaoTest.testQueryById" />
-        <item itemvalue="JUnit.TxTest.testTx" />
+        <item itemvalue="JUnit.SpringMVCTest.coreDispatcherServlet" />
+        <item itemvalue="JUnit.ApplicationContextTest.listnerTest" />
+        <item itemvalue="JUnit.ApplicationContextTest.beanPostProcessorTest" />
+        <item itemvalue="JUnit.ApplicationContextTest.spELTest" />
+        <item itemvalue="JUnit.ApplicationContextTest.start" />
       </list>
     </recent_temporary>
   </component>
@@ -422,8 +452,23 @@
       <workItem from="1590889809941" duration="791000" />
       <workItem from="1590890664886" duration="283000" />
       <workItem from="1590890969688" duration="5189000" />
-      <workItem from="1594126759091" duration="4021000" />
+      <workItem from="1594126759091" duration="5389000" />
+      <workItem from="1594212234222" duration="6152000" />
+      <workItem from="1594301373044" duration="7511000" />
+      <workItem from="1594428622136" duration="18429000" />
+      <workItem from="1594521666539" duration="5907000" />
+      <workItem from="1595029431732" duration="17558000" />
+      <workItem from="1595512252990" duration="1767000" />
+      <workItem from="1595597171783" duration="2630000" />
     </task>
+    <task id="LOCAL-00001" summary="ApplicationContext实例学习">
+      <created>1594131001288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594131001289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,6 +482,10 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ApplicationContext实例学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="ApplicationContext实例学习" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="481" y="122" key="#BuildArtifactsBeforeRunChooser" timestamp="1590893421399">
       <screen x="0" y="0" width="1366" height="728" />
@@ -446,90 +495,94 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="10" width="1229" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590893618828" />
-    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser" timestamp="1590140038642">
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1595039882660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="444" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590140038642" />
-    <state x="51" y="0" key="CommitChangelistDialog2" timestamp="1594130913141">
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595039882660" />
+    <state x="381" y="0" key="#xdebugger.evaluate" timestamp="1594212414828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="51" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594130913141" />
-    <state width="1241" height="546" key="DebuggerActiveHint" timestamp="1594127537599">
+    <state x="381" y="0" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1594212414828" />
+    <state x="51" y="0" key="CommitChangelistDialog2" timestamp="1594130998454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1241" height="546" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1594127537599" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1590140976318">
+    <state x="51" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594130998454" />
+    <state width="1241" height="546" key="DebuggerActiveHint" timestamp="1595045854718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1590140976318" />
-    <state x="411" y="23" key="FileChooserDialogImpl" timestamp="1594129415658">
+    <state width="1241" height="546" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1595045854718" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1594434729964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="411" y="23" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594129415658" />
-    <state width="1313" height="467" key="GridCell.Tab.0.bottom" timestamp="1594127808754">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1594434729964" />
+    <state x="411" y="23" key="FileChooserDialogImpl" timestamp="1595061020355">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="467" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594127808754" />
-    <state width="1313" height="467" key="GridCell.Tab.0.center" timestamp="1594127808754">
+    <state x="411" y="23" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595061020355" />
+    <state width="1191" height="359" key="GridCell.Tab.0.bottom" timestamp="1595600130074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="467" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594127808754" />
-    <state width="1313" height="467" key="GridCell.Tab.0.left" timestamp="1594127808754">
+    <state width="1191" height="359" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595600130074" />
+    <state width="1191" height="359" key="GridCell.Tab.0.center" timestamp="1595600130074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="467" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594127808754" />
-    <state width="1313" height="467" key="GridCell.Tab.0.right" timestamp="1594127808754">
+    <state width="1191" height="359" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595600130074" />
+    <state width="1191" height="359" key="GridCell.Tab.0.left" timestamp="1595600130074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="467" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594127808754" />
-    <state width="1313" height="105" key="GridCell.Tab.1.bottom" timestamp="1594127796065">
+    <state width="1191" height="359" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595600130074" />
+    <state width="1191" height="359" key="GridCell.Tab.0.right" timestamp="1595600130074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="105" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594127796065" />
-    <state width="1313" height="105" key="GridCell.Tab.1.center" timestamp="1594127796065">
+    <state width="1191" height="359" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595600130074" />
+    <state width="1191" height="359" key="GridCell.Tab.1.bottom" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="105" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594127796065" />
-    <state width="1313" height="105" key="GridCell.Tab.1.left" timestamp="1594127796065">
+    <state width="1191" height="359" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.1.center" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="105" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594127796065" />
-    <state width="1313" height="105" key="GridCell.Tab.1.right" timestamp="1594127796065">
+    <state width="1191" height="359" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.1.left" timestamp="1595600130074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="105" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594127796065" />
-    <state width="1253" height="3" key="GridCell.Tab.2.bottom" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595600130074" />
+    <state width="1191" height="359" key="GridCell.Tab.1.right" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.2.center" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.2.bottom" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.2.left" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.2.center" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.2.right" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.2.left" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.3.bottom" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.2.right" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.3.center" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.3.bottom" timestamp="1595600130076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.3.left" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595600130076" />
+    <state width="1191" height="359" key="GridCell.Tab.3.center" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
-    <state width="1253" height="3" key="GridCell.Tab.3.right" timestamp="1590918626294">
+    <state width="1191" height="359" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.3.left" timestamp="1595600130075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1253" height="3" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1590918626294" />
+    <state width="1191" height="359" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1595600130075" />
+    <state width="1191" height="359" key="GridCell.Tab.3.right" timestamp="1595600130076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1191" height="359" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1595600130076" />
     <state width="892" height="146" key="GridCell.Tab.4.bottom" timestamp="1590893632400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -562,10 +615,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="892" height="152" key="GridCell.Tab.5.right/0.0.1366.728@0.0.1366.728" timestamp="1590893621917" />
-    <state x="53" y="0" key="SettingsEditor" timestamp="1594128739975">
+    <state x="100" y="0" key="Maven.ArtifactSearchDialog" timestamp="1594437265920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594128739975" />
+    <state x="100" y="0" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1594437265920" />
+    <state x="247" y="11" key="RollbackChangesDialog" timestamp="1594460784953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="247" y="11" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594460784953" />
+    <state x="53" y="0" key="SettingsEditor" timestamp="1595512260913">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595512260913" />
+    <state x="175" y="38" key="Vcs.Push.Dialog.v2" timestamp="1594133354221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="38" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594133354221" />
     <state x="271" y="34" key="VcsDiffUtil.ChangesDialog" timestamp="1590140971371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -574,18 +639,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1590143948881" />
-    <state x="275" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1590890721494">
+    <state x="275" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1594428645265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590890721494" />
+    <state x="275" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594428645265" />
+    <state x="415" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594383500460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="415" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594383500460" />
     <state x="618" y="36" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1590893391148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="618" y="36" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1366.728@0.0.1366.728" timestamp="1590893391148" />
-    <state x="74" y="37" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590143688282">
+    <state x="0" y="37" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595041661043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="74" y="37" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1590143688282" />
+    <state x="0" y="37" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595041661043" />
     <state x="144" y="131" width="1029" height="68" key="dock-window-1" timestamp="1590893360723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -622,101 +691,63 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="144" y="131" width="1029" height="68" key="dock-window-9/0.0.1366.728@0.0.1366.728" timestamp="1590805939825" />
-    <state x="178" y="0" width="1009" height="728" key="find.popup" timestamp="1590894594559">
+    <state x="178" y="0" width="1009" height="778" key="find.popup" timestamp="1594386926340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="178" y="0" width="1009" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1590894594559" />
+    <state x="178" y="0" width="1009" height="778" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1594386926340" />
+    <state x="517" y="210" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1595039867748">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="210" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1595039867748" />
     <state x="255" y="159" key="run.anything.popup" timestamp="1590292106406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="255" y="159" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590292106406" />
-    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1590892700806">
+    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1595513059362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590892700806" />
+    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595513059362" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java</url>
-          <line>374</line>
-          <option name="timeStamp" value="21" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.12.RELEASE/spring-beans-5.1.12.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.class</url>
+          <line>11</line>
+          <properties class="org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor" method="postProcessBeanDefinitionRegistry">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/soecode/lyf/service/impl/BookServiceImpl.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="24" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.12.RELEASE/spring-context-5.1.12.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>886</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE-sources.jar!/org/springframework/transaction/interceptor/RuleBasedTransactionAttribute.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="29" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.12.RELEASE/spring-context-5.1.12.RELEASE-sources.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.java</url>
-          <line>336</line>
-          <option name="timeStamp" value="33" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.12.RELEASE/spring-context-5.1.12.RELEASE-sources.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class</url>
-          <line>69</line>
-          <option name="timeStamp" value="34" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.12.RELEASE/spring-context-5.1.12.RELEASE-sources.jar!/org/springframework/context/event/SimpleApplicationEventMulticaster.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class</url>
-          <line>74</line>
-          <option name="timeStamp" value="37" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.12.RELEASE/spring-webmvc-5.1.12.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
+          <line>598</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.7.RELEASE/spring-tx-4.1.7.RELEASE-sources.jar!/org/springframework/transaction/support/ResourceHolderSupport.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class</url>
-          <line>19</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java</url>
-          <line>371</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java</url>
-          <line>174</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java</url>
-          <line>275</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java</url>
-          <line>308</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/soecode/lyf/beanFactory/BeanFactoryExtTest.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/soecode/lyf/beanFactory/BeanFactoryExtTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/soecode/lyf/beanFactory/BeanFactoryExtTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="47" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.12.RELEASE/spring-webmvc-5.1.12.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
+          <line>1189</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -725,90 +756,9 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>seckill</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ssm$ApplicationContextTest_prepaerBeanFactory.ic" NAME="ApplicationContextTest.prepaerBeanFactory Coverage Results" MODIFIED="1594435368491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.soecode.lyf.beanFactory.*</FILTER>
+    </SUITE>
   </component>
 </project>

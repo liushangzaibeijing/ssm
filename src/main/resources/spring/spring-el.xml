@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 测试SpEL的使用 -->
+	<bean id="bookOne" class="com.soecode.lyf.entity.Book">
+		<property name="name" value="平凡的世界" />
+		<property name="author" value="路遥" />
+	</bean>
+	<bean id="bookTwo" class="com.soecode.lyf.entity.Book">
+		<!-- 此处使用el表达式获取bookOne实例的属性 -->
+		<property name="name" value="#{bookOne.name}" />
+		<property name="author" value="#{bookOne.author}" />
+	</bean>
+</beans>

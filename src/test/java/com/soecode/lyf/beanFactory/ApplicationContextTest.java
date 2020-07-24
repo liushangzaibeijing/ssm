@@ -1,11 +1,37 @@
 package com.soecode.lyf.beanFactory;
 
+import com.soecode.lyf.config.MyTaskEvent;
+import com.soecode.lyf.entity.Book;
+import com.soecode.lyf.service.impl.DemoServiceImpl;
+import com.soecode.lyf.service.impl.DemoTwoServiceImpl;
+import com.soecode.lyf.service.impl.EnvService;
 import org.junit.Test;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.PropertyEditorRegistrar;
+import org.springframework.beans.PropertyEditorRegistry;
+import org.springframework.beans.PropertyEditorRegistrySupport;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.NoSuchBeanDefinitionException;
+import org.springframework.beans.factory.ObjectFactory;
+import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
+import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.beans.factory.config.CustomEditorConfigurer;
+import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
+import org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
+import org.springframework.beans.support.ResourceEditorRegistrar;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.env.SystemEnvironmentPropertySource;
+import org.springframework.core.io.ClassPathResource;
 
 import javax.sql.DataSource;
+import java.beans.PropertyEditor;
+import java.beans.PropertyEditorSupport;
+import java.lang.annotation.Annotation;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ApplicationContextTest {
 
@@ -29,26 +55,89 @@ public class ApplicationContextTest {
         System.out.println(dataSource1.toString());
     }
 
-    //相比于XmlBeanFactory ApplicationContext的ClassPathXmlApplicationContext，支持加载多个资源文件
-
-
-    /**
-     * ClassPathXmlApplicationContext的构造函数
-     * @param configLocations 配置资源数组
-     * @param refresh 是否刷新容器标识（该标识对应的刷新接口是该实例的核心方法）
-     * @param parent  父类的对象
-     * @throws BeansException
-     */
-    public ClassPathXmlApplicationContext(String[] configLocations, boolean refresh, ApplicationContext parent) throws BeansException {
-        //设置其父类实例
-        super(parent);
-        //添加并解析资源名称 （数组）  //针对特殊属性的的资源名比如${var} 会进行相关的变量解析。
-        this.setConfigLocations(configLocations);
-        if (refresh) {
-            //刷新容器接口
-            this.refresh();
-        }
+    //ApplicationContext的refresh()方法
+    @Test
+    public void preparRefresh(){
+        MyClassPathXmlApplicationContext context = new MyClassPathXmlApplicationContext("spring/spring-dao.xml");
+        String classPath = context.getEnvironment().getProperty("classPath");
+        System.out.println("系统路径："+classPath);
 
     }
+    //自定义ApplictionContext
+    //业务场景对于容器启动需要设置相关系统属性，且对系统属性进行校验，则此处重写了initPropertySources（）方法
+    //扩展添加了属性信息  且添加了一个必填参数的校验
+    class MyClassPathXmlApplicationContext extends ClassPathXmlApplicationContext{
+
+        MyClassPathXmlApplicationContext(String... configLocations){
+            super(configLocations);
+        }
+        @Override
+        protected void initPropertySources() {
+           //此处进行
+            //系统变量
+            String classPath = "/usr/local/jdk1.9/bin";
+            Map<String,Object> paramMap = new HashMap<String, Object>();
+            paramMap.put("classPath",classPath);
+            SystemEnvironmentPropertySource seps = new SystemEnvironmentPropertySource("env", paramMap);
+            //设置必填属性
+            getEnvironment().getPropertySources().addFirst(seps);
+            getEnvironment().setRequiredProperties("classPath");
+            //设置环境中的必填参数alis校验 但是初始化属性中没有该属性会报错
+//            getEnvironment().setRequiredProperties("alis");
+        }
+    }
+
+    //测试beanFactory实例化
+    @Test
+    public void obtainFreshBeanFactory(){
+//        ApplicationContext context = new ClassPathXmlApplicationContext(
+//                new String[]{"spring/spring-beans.xml"});
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                new String[]{"spring/spring-bean2.xml","spring/spring-bean1.xml"});
+        Object object = context.getBean("demoService");
+        System.out.println(object.toString());
+    }
+
+
+    //测试beanFactory实例化
+    @Test
+    public void prepaerBeanFactory() throws Exception {
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                new String[]{"spring/spring-env.xml"});
+        EnvService envService = context.getBean("envService", EnvService.class);
+        envService.printProp();
+    }
+
+    //测试SpEL的使用
+    @Test
+    public void spELTest() throws Exception {
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                new String[]{"spring/spring-el.xml"});
+        Book book = context.getBean("bookTwo", Book.class);
+        System.out.println(book.getName());
+    }
+
+    //测试bean后置处理器的使用
+    @Test
+    public void beanPostProcessorTest() throws Exception {
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                new String[]{"spring/spring-beanPostProcessor.xml","spring/spring-bean1.xml"});
+        DemoServiceImpl demoService = context.getBean("demoService", DemoServiceImpl.class);
+
+    }
+
+    //测试事件监听器
+    @Test
+    public void listnerTest() throws Exception {
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+                new String[]{"spring/spring-listener.xml"});
+
+        //创建事件
+        MyTaskEvent taskEvent = new MyTaskEvent("test","404","资源未找");
+        context.publishEvent(taskEvent);
+    }
+
+
+
 
 }
